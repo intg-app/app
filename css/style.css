@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin:0;
+}
+.asSeen {
+	width:960px;
+	margin: 0 auto;
+}
+.seen {
+	width:100%;
+	background-color:#ffffff;
+}
+.logoHolder {
+	padding:10px;
+}
+.seenOntxt {
+	text-align:center;
+	margin:0;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color: #000000;
+}
+.seenLogos {
+	list-style:none;
+	width: 768px;
+	margin: 10px auto;
+	padding: 0;
+}
+.seenLogos li {
+	float:left;
+	margin-right:35px;
+	margin-bottom: 15px;
+	
+}
+.cnn {
+	background: url(http://markettraders.com/asseen/light/images/logos.png);
+	background-position: 0px 0px;
+	width: 65px;
+	height:30px;
+}
+.foxbusiness {
+	background: url(http://markettraders.com/asseen/light/images/logos.png);
+	background-position: 0px -40px;
+	width: 62px;
+	height:30px;
+}
+.cnbc {
+	background: url(http://markettraders.com/asseen/light/images/logos.png);
+	background-position: 0px -80px;
+	width: 41px;
+	height:30px;
+}
+.bloomberg {
+	background: url(http://markettraders.com/asseen/light/images/logos.png);
+	background-position: 0px -120px;
+	width: 132px;
+	height:30px;
+}
+.fxknowledge {
+	background: url(http://markettraders.com/asseen/light/images/logos.png);
+	background-position: 0px -160px;
+	width: 113px;
+	height:30px;
+}
+.fxstreet {
+	background: url(http://markettraders.com/asseen/light/images/logos.png);
+	background-position: 0px -200px;
+	width: 176px;
+	height:30px;
+}
+.seenLogos li:last-child {
+	margin-right:0;
+}
+.clear {
+	clear:both;
+}

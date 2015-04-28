@@ -1,0 +1,262 @@
+/*---------------------      
+ ----------------------
+        BASICS       
+ ----------------------
+ ----------------------*/
+
+/*If you need it, use it. If not, lose it.*/
+body{background:#eef1f3; font-family: 'open_sansregular', Arial, Helvetica, sans-serif;color: #415261}
+
+
+/*Basic Bootstrap Element Customization*/
+.container {max-width: 970px;}
+.row{margin:0px auto;}
+.desktop{display: inherit;}
+.mobile{display:none;}
+.nopad{padding: 0;}
+
+/*Floats (avoid using Bootstrap's Floats. It jacks stuff up)*/
+.left{float:left;}
+.right{float:right;}
+.clear{clear: both;}
+
+/*Mini MTI Header*/
+header {background-color:#eef1f3; color: #7f8182; padding: 10px; border-bottom: solid 1px #d3d2d3;}/*Change out the Background color and the font color if indicated otherwise by the comp*/
+.motto,.brand{padding-top: 5px;}
+
+.motto b{font-family: 'open_sansbold', Arial, Helvetica, sans-serif;font-weight: 700;color:#415261;}
+/*Footer*/
+footer{padding-top:50px; padding-bottom:50px;}
+footer{padding-top:50px; padding-bottom:50px;}
+footer p{font-size: 12px; color:#737373;}
+footer a{color:#737373; text-decoration: underline;}
+footer a:hover{color:#737373; text-decoration: underline;}
+
+/*Privacy*/
+.privacy {color:#000000; margin-top: 10px;}
+.privacy a:link, .privacy a:hover, .privacy a:active {color:#000000!important; text-decoration: underline;}
+
+/*---------------------      
+ ----------------------
+      TYPOGRAPHY       
+ ----------------------
+ ----------------------*/
+
+/*Font Weights*/
+.bold{font-weight: 700;}
+.regular{font-weight: 300;}
+
+/*Font Styles*/
+.italic{font-style: italic;}
+.underline{text-decoration: underline;}
+.caps{text-transform: uppercase;}
+
+/*Text Alignment*/
+.center{text-align: center}
+.text-right{text-align: right;}
+.text-left{text-align: left;}
+.long {font-size: 22px;}
+
+/*Text Colors*/
+.white{color: #fff;}
+.grey{color: #696969;}
+.black{color:#000;}
+
+.has-error .help-block, .has-error .control-label {color: #000;font-size: 12px;}
+
+
+
+/*---------------------      
+ ----------------------
+        BUTTONS       
+ ----------------------
+ ----------------------*/
+
+
+.btn-default, .btn-default:hover, .btn-default:active, .btn-default:focus,.btn{width: 80%; max-width: 200px; margin: 0px auto; color: #fff; text-align: left; }
+.btn-lg{padding: 10px 15px 10px 15px; font-size: 18px; line-height: 1.33; border-radius: 6px;}
+.btn{width:200px;}
+.button2 {background-color:#ff6815; padding: 10px 20px; font-size: 16px; color:#FFFFFF; text-align:center;border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;}
+.button2 a:link, .button2 a:hover, .button2 a:active, .button2 a:visited {color:#FFFFFF; text-decoration: none;}
+
+
+
+/*Button Colors*/
+
+/* Button Colors and Gradients go below. I usually give them a color class like blue-grad or white-btn
+   and use them as helper classes. If it's an #submitBtn id, you will need to manually add the colors to the class. */
+
+  .button {background: #ff7400;-webkit-border-radius: 4;-moz-border-radius: 4;border-radius: 4px;font-family: Arial;color: #ffffff;font-size: 16px;text-align: center;padding: 10px 10px 10px 10px;text-decoration: none;margin-left: 0!important;margin-top: 5px}
+
+/*---------------------      
+ ----------------------
+         IMAGES       
+ ----------------------
+ ----------------------*/
+
+.responsive{width: 100%;}/*helps make images responsive*/
+
+/*give each image a class with a max-width. Use it's width there. This helps keep it from going too large. Below is just an example*/
+.image{max-width: 150px;}
+
+
+
+
+/*---------------------      
+ ----------------------
+    RESPONSIVE VIDEO
+ ----------------------
+ ----------------------*/
+
+/*This Keeps videos responsive. Have found it to work on multiple pages. No need to tweak code here*/
+
+.video-container {position: relative;padding-bottom: 49.4%;padding-top: 30px;height: 0;overflow: hidden;width: 100%;margin: -20px auto 10px auto;max-width: 800px;}
+.video-container iframe,
+.video-container object,
+.video-container embed {position: absolute;top: 0;left: 0;width: 100%;height: 100%;max-height: 486px;}
+
+iframe {border: 0;}
+
+/*---------------------      
+ ----------------------
+       LP STYLING
+ ----------------------
+ ----------------------*/
+.page-title {background: url(../images/cal-icon.png)no-repeat;   background-position-x: 200px;background-position-y: -63px;}
+.page-title h1:first-child {font-family: "montserratregular";color:#415261;padding: 15px;font-size: 36px;}
+.header-img {background:#65b7b7;color: #fff;font-family: "open_sansregular", Arial, Helvetica, sans-serif;height: 177px;border-radius: 4px}
+.header-img h1{color: #fff;font-family: "open_sansregular", Arial, Helvetica, sans-serif;padding: 55px;font-size: 48px}
+.header-img h1 span{color: #fff;font-family: "open_sansextrabold", Arial, Helvetica, sans-serif;font-weight: 700;}
+.header-info {margin-top: -40px}
+.body-content {margin: 20px auto;padding-top: 5px;padding-bottom: 45px;/*margin-top: 10px;*/background-color: #fff;background-image: url(img/cal-icon.png)no-repeat;background-size:110px;border-radius: 5px}
+.top-content h1 {padding-top: 10px;}
+
+.poweredby {text-align: center!important;margin-top: 50px}
+header {background-color:#FFFFFF;}
+/* Styling for the landing page goes here to make sure it gets loaded last. */
+
+  .nar-info {padding-bottom: 30px;}
+  .top-arrow {background: url(../images/top-arrow.png) no-repeat center;background-position: bottom bottom ;padding-top: 70px;}
+  
+  .sub-header {font-family: 'open_sansregular', Arial, Helvetica, sans-serif;font-weight: bold;left: 0;background: #0377be;text-align: center;font-size: 12px;color: #d3d2d3;height: 100px;padding-top: 0px;}
+  .sub-header h4 {font-size: 18px;color: #FFFFFF;padding-top: 25px;}
+  .sub-header a {color: #fff;text-decoration: underline;}
+  .top-content {margin-bottom: 25px;clear: both;}
+  .top-content-thank-you {margin-bottom: 60px;}
+  .top-content h1{font-size: 35px;font-family: "montserratregular";color: #0377be;line-height: 1.2;text-align: center;padding-top: 30px;}
+  .top-content h2 {font-size: 34px;font-family: "montserratregular";font-weight: normal;color: #4a4a4a;line-height: 1.2;text-align: center;}
+  .appt-type h3{font-size: 18px;font-family: 'open_sansregular', Arial, Helvetica, sans-serif;color: #415261;}
+  .top-content h4 {font-size: 30px;font-family: "montserratbold";font-weight: bold;color: #4a4a4a;line-height: 1.2;text-align: center;}
+
+  .middle-image {text-align: center;}
+  .about-author-content {padding: 50px;height: 100%;border-bottom: #d3d2d3 1px solid;border-top: #d3d2d3 1px solid;}  
+  .author-image {text-align: center;}  
+  
+  .as-seen-on-content {height: 100%;border-bottom: #d3d2d3 1px solid;border-top: #d3d2d3 1px solid;}  
+  .seen {background: #eef1f3!important;}  
+  .as-seen-on-border {color: #000;background-color: #000;height: 1px;}
+
+
+  /*LISTS */
+  .arrow{ background: url(img/arrow.png) no-repeat left 12px; }
+  .lists li { font-size: 14px; list-style: none; padding: 10px 0 10px 25px; }
+  
+  .left-content  p {color:#415261;font-family: 'open_sansregular', Arial, Helvetica, sans-serif;font-size: 16px;line-height: 24px}
+  .left-content h1 {color: #505050;font-family: 'open_sansbold', Arial, Helvetica, sans-serif;font-size: 34px}
+  .left-content h2 {color: #415261;font-family: 'montserratregular', Arial, Helvetica, sans-serif;font-size: 18px;}
+  .left-content h4 {color: #415261;font-family: 'montserratregular', Arial, Helvetica, sans-serif;font-size: 18px;padding-left: 20px;padding-top: 10px;padding-bottom: 10px}
+  .left-content h6 {color: #415261;font-family: 'open_sansregular', Arial, Helvetica, sans-serif;font-size: 16px;padding-left: 10px}
+  .left-content h6 span {color: #415261;font-family: 'open_sansbold', Arial, Helvetica, sans-serif;font-size: 16px;font-weight: 700}
+
+  h2.thankyou-heading  {padding-bottom: 30px}
+  .appt-type {background: #f4f4f4;border-radius: 5px;margin-bottom: 20px;padding:10px}
+  .appt-type a {text-decoration: none;}
+  /*.RegForm {height: 100%!important;background:#fff;padding: 20px;margin-bottom: 25px;-webkit-box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.75);-moz-box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.75);box-shadow: 0px 0px 21px -1px rgba(0,0,0,0.75);border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;border-top-right-radius: 5px;border-top-left-radius: 5px;}*/
+  .right {background: #eef1f3;margin-top: 30px}
+  .RegForm h2 {color: #ff7400;font-size: 24px;font-style: normal;text-align: left;font-family: 'open_sansregular', Arial, Helvetica, sans-serif;font-weight: 700;padding-bottom: 0px;}
+  .RegForm h2 span {color: #ff9027}
+  .RegForm ul {font-size: 14px;clear:both;display: block;padding: 25px;}
+  .RegForm label {font-size: 12px;font-weight: normal;margin-left: 25px;padding-left: 20px;}
+  .RegForm .button {margin-left: 10%;width: 100%}
+  .RegForm h4 {font-size: 14px;font-weight: bold;}
+
+  .alert-info {color: #3a455b;font-size: 14px;}
+
+  .bottom-arrow-blue {float: right;margin-bottom: 55px;}
+  .bottom-arrow-dark {float: left;margin-bottom: 55px;}
+
+  .alert-live-session {background: #e5e6e6;border:#d0d1d1 solid 1px;}
+  .arrows-bottom {background: url(img/arrows-bottom.png) no-repeat;background-position: right;}
+
+  .ng-scope {margin-left: 0px}
+  .seenOntxt {color: white;}
+
+.top-download {margin-top: 5px;padding-bottom: 25px}
+.top-download button{background:#65b7b7;min-width:40%;text-align:center;}
+.top-download .white-arrow {background: url(img/white-arrow.png) no-repeat;}
+
+
+.appt-info {background:#f4f4f4; padding: 10px 30px 10px 30px; border-radius: 5px;}
+.alert {font-family: 'open_sansregular', Arial, Helvetica, sans-serif;margin: 30px auto;font-size: 16px}
+.alert a{font-style: italic;color:#1579ab;font-family: 'open_sansbold', Arial, Helvetica, sans-serif;}
+.fa-lock {color: #1579ab}
+
+.alert-success span{font-family: 'open_sansbold', Arial, Helvetica, sans-serif;font-weight: 700;font-style: italic;color: #79b325}
+.privacy-note b{font-family: 'open_sansbold', Arial, Helvetica, sans-serif;font-weight: 700 }
+/*icons inside the input*/
+.input-lg+.form-control-feedback {width: 74px;height: 46px;line-height: 113px;}
+/*---------------------  
+ ----------------------
+         MOBILE
+ ----------------------
+ ----------------------*/
+/* Most of the Landing pages break around 767px, so add any mobile additions you need here*/
+@media (max-width: 767px) {
+    .motto {text-align:center;}
+    .brand {text-align:center;}
+    .desktop{display: none;}
+    .mobile{display: inherit;}
+    .right, .left{float:left;}
+/*Additional classes added below this line*/
+    .top-content-thank-you {margin-bottom: 45px;}
+    .step-two {font-size: 22px; text-align:center;}
+    .top-content h1 {font-size: 22px;}
+
+    .top-arrow {display: none;}
+    .header{margin-top: 0px;}
+    .RegForm {margin-bottom: 25px; clear: both;}
+    .bottom-arrow-blue {display: none;}
+    .bottom-arrow-dark {display: none;}
+    .top-download button{background:#65b7b7;min-width:100%;text-align:center;font-size: 16px}
+}
+
+@media (max-width: 991px) {
+    .brand {text-align:center;}
+    .top-arrow {display: none;}
+    .bottom-arrow-blue {display: none;}
+    .bottom-arrow-dark {display: none;}
+    .middle-image {float: left;}
+    .left-content {float: right;}
+
+.header-img {background:#65b7b7;color: #fff;font-family: "open_sansregular", Arial, Helvetica, sans-serif;height: 100%;text-align: center;}
+.header-img h1 {padding: inherit;padding-top: 40px;font-size: 35px}
+.header-img h1 br {display: none}
+.top-download button{background:#65b7b7;min-width:100%;text-align:center;}
+}
+
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+.flex-video { padding-top: 0; }
+
+}
+
+
+
+
+
+/*---------------------  
+ ----------------------
+        SPECIFIC STYLES FOR THE
+        forex life line ebook PAGE
+ ----------------------
+ ----------------------*/
+
